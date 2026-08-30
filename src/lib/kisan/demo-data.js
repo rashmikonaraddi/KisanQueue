@@ -1,4 +1,4 @@
-const DISCLAIMER = "Prototype developed for Smart India Hackathon 2026 \u2014 SIH26032. This application is a demonstration and is not an official Government of India portal.";
+const DISCLAIMER = "This application is a demonstration prototype and is not an official Government of India portal.";
 const CROPS = ["Rice", "Wheat", "Ragi", "Maize", "Jowar", "Tur Dal"];
 const MSP = {
   Rice: 2320,

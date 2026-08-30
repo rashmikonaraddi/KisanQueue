@@ -17,8 +17,8 @@ const Route = createFileRoute("/login")({
         name: "description",
         content: "Sign in as a farmer, procurement centre operator or government administrator."
       },
-      { property: "og:title", content: "Sign in \u2014 KisanQueue" },
-      { property: "og:description", content: "Demo accounts available for hackathon judges." }
+      { property: "og:title", content: "Sign in — KisanQueue" },
+      { property: "og:description", content: "Demo accounts available for quick preview." }
     ]
   }),
   component: LoginPage
@@ -80,7 +80,7 @@ function LoginPage() {
       <main className="mx-auto flex w-full max-w-lg flex-1 flex-col justify-center px-4 py-10">
         <h1 className="font-display text-2xl font-bold">Sign in to KisanQueue</h1>
         <p className="mt-1 text-sm text-muted-foreground">
-          Choose your role. All three demo accounts are pre-filled for judges.
+          Choose your role. All three demo accounts are pre-filled for easy testing.
         </p>
 
         <Tabs defaultValue="farmer" className="mt-6">

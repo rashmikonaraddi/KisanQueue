@@ -10,7 +10,7 @@ function Brand({ className, subtitle = true }) {
       </span>
       <span className="leading-tight">
         <span className="block font-display text-base font-bold tracking-tight">{t("app.name")}</span>
-        {subtitle && <span className="block text-[11px] text-muted-foreground">SIH 2026 · SIH26032</span>}
+        {subtitle && <span className="block text-[11px] text-muted-foreground">{t("app.subtitle") || "Smart Procurement Queue"}</span>}
       </span>
     </Link>;
 }

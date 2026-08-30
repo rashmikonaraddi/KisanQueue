@@ -78,7 +78,7 @@ export const Route = createRootRouteWithContext()({
       {
         name: "description",
         content:
-          "Digital procurement queue, live token tracking and payment status for farmers. SIH 2026 prototype.",
+          "Digital procurement queue, live token tracking and payment status for farmers.",
       },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },

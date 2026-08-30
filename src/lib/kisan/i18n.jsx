@@ -2,6 +2,7 @@ import { createContext, useContext, useMemo, useState } from "react";
 const en = {
   "app.name": "KisanQueue",
   "app.tagline": "Smart Farmer Procurement Queue & Status Management",
+  "app.subtitle": "Smart Procurement Queue",
   "nav.dashboard": "Dashboard",
   "nav.queue": "My Queue",
   "nav.book": "Book Slot",
@@ -50,6 +51,7 @@ const en = {
 const hi = {
   "app.name": "\u0915\u093F\u0938\u093E\u0928\u0915\u094D\u092F\u0942",
   "app.tagline": "\u0938\u094D\u092E\u093E\u0930\u094D\u091F \u0915\u093F\u0938\u093E\u0928 \u0916\u0930\u0940\u0926 \u0915\u0924\u093E\u0930 \u090F\u0935\u0902 \u0938\u094D\u0925\u093F\u0924\u093F \u092A\u094D\u0930\u092C\u0902\u0927\u0928",
+  "app.subtitle": "\u0938\u094D\u092E\u093E\u0930\u094D\u091F \u0916\u0930\u0940\u0926 \u0915\u0924\u093E\u0930",
   "nav.dashboard": "\u0921\u0948\u0936\u092C\u094B\u0930\u094D\u0921",
   "nav.queue": "\u092E\u0947\u0930\u0940 \u0915\u0924\u093E\u0930",
   "nav.book": "\u0938\u094D\u0932\u0949\u091F \u092C\u0941\u0915 \u0915\u0930\u0947\u0902",

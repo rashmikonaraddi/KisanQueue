@@ -1,6 +1,6 @@
 # KisanQueue (JavaScript)
 
-Plain JavaScript + React 19 + Vite version of the KisanQueue SIH26032 prototype.
+Plain JavaScript + React 19 + Vite version of the KisanQueue prototype.
 No TypeScript — all files are `.js` / `.jsx`.
 
 ## Run
@@ -22,4 +22,4 @@ npm run build
 - `src/lib/kisan/` — demo data, state store, prediction engine, i18n, assistant
 - `src/styles.css` — Tailwind v4 theme tokens
 
-Prototype for Smart India Hackathon 2026 — SIH26032. Not an official Government of India portal.
+Demonstration prototype. Not an official Government of India portal.

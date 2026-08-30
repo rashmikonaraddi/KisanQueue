@@ -29,9 +29,9 @@ const Route = createFileRoute("/")({
       { title: "KisanQueue \u2014 Smart Procurement. Less Waiting. Better for Farmers." },
       {
         name: "description",
-        content: "Digitising farmer procurement queues with real-time tracking, intelligent waiting-time prediction and transparent procurement status. SIH 2026 prototype."
+        content: "Digitising farmer procurement queues with real-time tracking, intelligent waiting-time prediction and transparent procurement status."
       },
-      { property: "og:title", content: "KisanQueue \u2014 Smart Farmer Procurement Queue" },
+      { property: "og:title", content: "KisanQueue — Smart Farmer Procurement Queue" },
       {
         property: "og:description",
         content: "Book procurement slots, get a digital token, track your live queue position and payment status."
@@ -99,7 +99,7 @@ function Landing() {
         <div className="mx-auto grid max-w-6xl items-center gap-10 px-4 py-12 md:grid-cols-2 md:py-20">
           <div>
             <span className="inline-flex items-center gap-2 rounded-full border border-primary/25 bg-primary/8 px-3 py-1 text-xs font-semibold text-primary">
-              <Wheat className="size-3.5" /> Smart India Hackathon 2026 · SIH26032
+              <Wheat className="size-3.5" /> Smart Farmer Procurement System
             </span>
             <h1 className="mt-5 font-display text-4xl leading-[1.1] font-extrabold sm:text-5xl">
               Smart Procurement. Less Waiting. Better for Farmers.
@@ -119,7 +119,7 @@ function Landing() {
               </Button>
             </div>
             <p className="mt-4 text-xs text-muted-foreground">
-              Demo login available for judges — no registration needed.
+              Demo login available — no registration needed.
             </p>
           </div>
 
